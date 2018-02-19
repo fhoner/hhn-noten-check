@@ -153,7 +153,7 @@ $file = str_replace([' ', $jsess, $asi, 'Node1', 'Node2'], "", $file);
 $filename = $config['temp_filename'];
 if (!file_exists($filename)) {      // first check
     file_put_contents($filename, $file);        
-    endSlackMessage(
+    sendSlackMessage(
         $config['slack_hook'],
         $config['slack_channel'],
         $config['slack_username'],

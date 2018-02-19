@@ -5,7 +5,7 @@ Loggt sich automatisch in Linda ein und ruft den aktuellen Notenspiegel ab. Glei
 # Anleitung
 PHP-Skript mittels `$config` konfigurieren und automatisiert verarbeiten lassen, bspw. mittels Cronjob und PHP-CLI. Wichtig: PHP muss in das Verzeichnis schreiben dürfen, um die jeweils aktuelle Notenliste zwischenspeichern zu können.
 
-```sudo contab -e```
+```sudo crontab -e```
 
 ```* * * * * php /var/www/html/linda/linda.php```
 
